@@ -45,4 +45,6 @@ Aby se všechny změny projevily okamžitě.
 
 ## stahnuti isp configu
 nejdrive se musi zmenit hostname na nejakou domenu napriklad `sudo hostnamectl set-hostname ct102.mojedomena.cz`  
-`wget -O - https://get.ispconfig.org | sh`  
+p
+stahnuti souboru `wget -O installer.sh https://get.ispconfig.org`  
+spusteni instalace `sudo bash installer.sh --use-nginx --use-php=8.2 --no-mail --no-dns --no-firewall --no-quota`
