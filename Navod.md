@@ -44,6 +44,5 @@ Reload privilege tables now? [Y/n]
 Aby se všechny změny projevily okamžitě.  
 
 ## stahnuti isp configu
-``wget -O - https://get.ispconfig.org | sh``
-`dave`
-```dave```
+nejdrive se musi zmenit hostname na nejakou domenu napriklad `sudo hostnamectl set-hostname ct102.mojedomena.cz`  
+`wget -O - https://get.ispconfig.org | sh`  
