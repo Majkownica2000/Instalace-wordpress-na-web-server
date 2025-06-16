@@ -1,9 +1,11 @@
 # Instalace-wordpress-na-web-server
 
 ## instalace nginx
+```
 sudo apt install nginx -y  
 sudo systemctl enable nginx  
-sudo systemctl start nginx  
+sudo systemctl start nginx
+ ```
 
 ## instalace php 
 sudo apt install php-fpm php-mysql php-xml php-curl php-gd php-mbstring php-zip php-bcmath php-intl -y  
