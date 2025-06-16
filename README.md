@@ -1,1 +1,0 @@
-# Instalace-wordpress-na-web-server
