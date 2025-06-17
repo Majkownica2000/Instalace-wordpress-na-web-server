@@ -23,9 +23,16 @@ php -v
 ```
 
 ## instalace maria db
-sudo apt install mariadb-server mariadb-client -y  
+```
+sudo apt install mariadb-server
+``` mariadb-client -y  
+```
 sudo systemctl enable mariadb  
+```
+
+```
 sudo systemctl start mariadb  
+```
 
 ### zabezpeceni databaze
 sudo mysql_secure_installation  
