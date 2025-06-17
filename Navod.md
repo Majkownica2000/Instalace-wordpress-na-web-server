@@ -16,7 +16,10 @@ sudo systemctl start nginx
 ## instalace php 
 ```
 sudo apt install php-fpm php-mysql php-xml php-curl php-gd php-mbstring php-zip php-bcmath php-intl -y  
-kontrola verze php: php -v
+```
+kontrola verze php: 
+```
+php -v
 ```
 
 ## instalace maria db
