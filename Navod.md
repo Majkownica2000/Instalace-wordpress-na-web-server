@@ -69,6 +69,10 @@ nejdrive se musi zmenit hostname na nejakou domenu napriklad
 ```
 sudo hostnamectl set-hostname ct102.mojedomena.cz
 ```
+instalace ppotrebnych zdroju pro isp config
+```
+sudo apt install postfix rkhunter binutils sudo nano wget curl apt-transport-https lsb-release ca-certificates -y
+```
 zmena do adresare `/tmp`
 ```
 cd /tmp
