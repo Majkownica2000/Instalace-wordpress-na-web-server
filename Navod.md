@@ -42,26 +42,26 @@ Enter current password for root (enter for none):
    Pokud jsi ještě nenastavil heslo pro root, jen stiskni Enter.  
 
 Switch to unix_socket authentication [Y/n]?  
-   **Doporučuji: n (ne), pokud chceš přihlašovat přes heslo (např. z phpMyAdminu).**  
+   `Doporučuji: n (ne), pokud chceš přihlašovat přes heslo (např. z phpMyAdminu).`  
 
 Change the root password? [Y/n]  
-  **Doporučuji: y**  
+  `Doporučuji: y`  
   Zadej nové bezpečné heslo pro MySQL uživatele root, pak ho potvrď.  
 
 Remove anonymous users? [Y/n]  
-  Doporučuji: y  
+  `Doporučuji: y`  
   Odstraní anonymní účty, které mohou být bezpečnostním rizikem.  
 
 Disallow root login remotely? [Y/n]  
-  **Doporučuji: y**  
+  `Doporučuji: y`  
   Zakáže vzdálené přihlášení jako root, což je bezpečnější.  
 
 Remove test database and access to it? [Y/n]  
-  **Doporučuji: y**  
+  `Doporučuji: y`  
   Odstraní databázi test, která je určena jen pro vývoj.  
 
 Reload privilege tables now? [Y/n]  
-  **y**
+  `y`
 Aby se všechny změny projevily okamžitě.  
 
 ## stahnuti isp configu
