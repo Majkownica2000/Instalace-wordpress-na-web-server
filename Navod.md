@@ -79,7 +79,7 @@ cd /tmp
 ```
 stahnuti souboru 
 ```
-wget https://www.ispconfig.org/downloads/ISPConfig-3.3.x.tar.gz
+wget https://ispconfig.org/downloads/ISPConfig-3.3.0p1.tar.gz
 ```
 rozbaleni souboru
 ```
