@@ -68,20 +68,24 @@ Aby se všechny změny projevily okamžitě.
 nejdrive se musi zmenit hostname na nejakou domenu napriklad 
 ```
 sudo hostnamectl set-hostname ct102.mojedomena.cz
-```  
-p
+```
+zmena do adresare `/tmp`
+```
+cd /tmp
+```
 stahnuti souboru 
 ```
-wget -O installer.sh https://get.ispconfig.org
-```  
+wget https://www.ispconfig.org/downloads/ISPConfig-3.3.x.tar.gz
+```
+rozbaleni souboru
+```
+tar xvfz ISPConfig-3.3.x.tar.gz
+```
+zmena do adresare ispconfig3_install/install/
+```
+cd ispconfig3_install/install/
+```
 spusteni instalace
 ```
-sudo bash installer.sh --use-nginx --use-php=8.2 --no-mail --no-dns --no-firewall --no-quota
+sudo php install.php
 ```
-
-## instalace phpmyadmin
-```
-sudo apt install -y phpmyadmin
-```
-web server reconfigure > `ne`  
-Configure database for phpmyadmin with dbconfig-common:  `Yes`  
