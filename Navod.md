@@ -107,4 +107,36 @@ MySQL root password []: `Zadej heslo, které jsi nastavil/a pro MariaDB root už
 MySQL database to create `napriklad: ispconfig`  
 MySQL charset `utf8mb4`  
 
+## instalace phpmyadmin
+automaticka konfigurace `preskocit`  
+Konfigurovat databázi pro phpMyAdmin s dbconfig-common: `yes`  
+Heslo pro phpMyAdmin uživatele v MySQL: `zadej sve heslo`  
+Vytvořte soubor konfigurace pro phpMyAdmin v Nginx:
+```
+sudo mcedit /etc/nginx/sites-available/phpmyadmin
+```
+do toho souboru vlozit
+```
+server {
+    listen 80;
+    server_name your_domain_or_ip_for_phpmyadmin; # Nahraďte vaší doménou nebo IP adresou
+    root /usr/share/phpmyadmin;
+    index index.php index.html index.htm;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/var/run/php/php8.x-fpm.sock; # Zde zkontrolujte verzi PHP (např. php8.1-fpm.sock)
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
+
+    location ~ /\.ht {
+        deny all;
+    }
+}
+```
 
