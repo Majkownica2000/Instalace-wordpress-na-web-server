@@ -78,3 +78,10 @@ spusteni instalace
 ```
 sudo bash installer.sh --use-nginx --use-php=8.2 --no-mail --no-dns --no-firewall --no-quota
 ```
+
+## instalace phpmyadmin
+```
+sudo apt install -y phpmyadmin
+```
+web server reconfigure > `ne`  
+Configure database for phpmyadmin with dbconfig-common:  `Yes`  
