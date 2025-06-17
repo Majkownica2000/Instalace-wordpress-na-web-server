@@ -39,7 +39,7 @@ sudo mysql_secure_installation
 ```
 
 Enter current password for root (enter for none):  
-   Pokud jsi ještě nenastavil heslo pro root, jen stiskni Enter.  
+   `Pokud jsi ještě nenastavil heslo pro root, jen stiskni Enter.`  
 
 Switch to unix_socket authentication [Y/n]?  
    `Doporučuji: n (ne), pokud chceš přihlašovat přes heslo (např. z phpMyAdminu).`  
