@@ -119,7 +119,7 @@ do toho souboru vlozit
 ```
 server {
     listen 80;
-    server_name your_domain_or_ip_for_phpmyadmin; # Nahraďte vaší doménou nebo IP adresou
+    server_name your_domain_or_ip_for_phpmyadmin; # Nahradte vasi domenou nebo IP adresou
     root /usr/share/phpmyadmin;
     index index.php index.html index.htm;
 
