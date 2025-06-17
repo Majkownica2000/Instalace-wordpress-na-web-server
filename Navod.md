@@ -129,7 +129,7 @@ server {
 
     location ~ \.php$ {
         include snippets/fastcgi-php.conf;
-        fastcgi_pass unix:/var/run/php/php8.x-fpm.sock; # Zde zkontrolujte verzi PHP (např. php8.1-fpm.sock)
+        fastcgi_pass unix:/var/run/php/php8.x-fpm.sock; # Zde zkontrolujte verzi PHP (napr. php8.1-fpm.sock)
         fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
         include fastcgi_params;
     }
