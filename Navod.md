@@ -143,4 +143,12 @@ vytvoreni symbolickeho odkazu pro povolení konfigurace:
 ```
 sudo ln -s /etc/nginx/sites-available/phpmyadmin /etc/nginx/sites-enabled/
 ```
+otestovani nginx konfigurace:
+```
+nginx -t
+```
+restartovani nginx:
+```
+systemctl restart nginx
+```
 
