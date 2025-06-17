@@ -81,7 +81,7 @@ rozbaleni souboru
 ```
 tar xvfz ISPConfig-3.3.x.tar.gz
 ```
-zmena do adresare ispconfig3_install/install/
+zmena do adresare `ispconfig3_install/install/`
 ```
 cd ispconfig3_install/install/
 ```
