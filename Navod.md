@@ -61,7 +61,7 @@ Remove test database and access to it? [Y/n]
   Odstraní databázi test, která je určena jen pro vývoj.  
 
 Reload privilege tables now? [Y/n]  
-  `y`
+  `y`  
 Aby se všechny změny projevily okamžitě.  
 
 ## stahnuti isp configu
