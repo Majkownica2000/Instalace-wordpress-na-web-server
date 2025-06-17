@@ -89,3 +89,18 @@ spusteni instalace
 ```
 sudo php install.php
 ```
+jazyk `en`  
+typ instalace `standard`  
+Full qualified hostname (FQDN) of the server `jmeno celeho serveru`  
+MySQL server hostname [localhost]: `localhost` server bezi na stejnem stroji  
+
+MySQL server port [3306]: `3306` vychozi port mariadb/mysql  
+
+MySQL root username [root]: `root` uživatel pro přístup k databázi  
+
+MySQL root password []: `Zadej heslo, které jsi nastavil/a pro MariaDB root uživatele při spuštění mysql_secure_installation` Instalátor potřebuje práva roota k databázi pro vytvoření potřebných databází a uživatelů pro ISPConfig.  
+
+MySQL database to create `napriklad: ispconfig`  
+MySQL charset `utf8mb4`  
+
+
