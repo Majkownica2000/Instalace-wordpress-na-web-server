@@ -25,11 +25,13 @@ php -v
 ## instalace maria db
 ```
 sudo apt install mariadb-server
-``` mariadb-client -y  
+``` 
+```
+mariadb-client -y  
+```
 ```
 sudo systemctl enable mariadb  
 ```
-
 ```
 sudo systemctl start mariadb  
 ```
