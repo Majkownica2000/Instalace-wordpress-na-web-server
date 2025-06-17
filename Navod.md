@@ -34,7 +34,9 @@ sudo systemctl start mariadb
 ```
 
 ### zabezpeceni databaze
+```
 sudo mysql_secure_installation  
+```
 
 Enter current password for root (enter for none):  
    Pokud jsi ještě nenastavil heslo pro root, jen stiskni Enter.  
@@ -63,7 +65,10 @@ Reload privilege tables now? [Y/n]
 Aby se všechny změny projevily okamžitě.  
 
 ## stahnuti isp configu
-nejdrive se musi zmenit hostname na nejakou domenu napriklad `sudo hostnamectl set-hostname ct102.mojedomena.cz`  
+nejdrive se musi zmenit hostname na nejakou domenu napriklad 
+```
+sudo hostnamectl set-hostname ct102.mojedomena.cz
+```  
 p
 stahnuti souboru `wget -O installer.sh https://get.ispconfig.org`  
 spusteni instalace `sudo bash installer.sh --use-nginx --use-php=8.2 --no-mail --no-dns --no-firewall --no-quota`
