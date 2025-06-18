@@ -151,4 +151,3 @@ restartovani nginx:
 ```
 systemctl restart nginx
 ```
-
