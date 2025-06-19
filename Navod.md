@@ -65,6 +65,10 @@ Reload privilege tables now? [Y/n]
 Aby se všechny změny projevily okamžitě.  
 
 ## stahnuti isp configu
+### taky mozna cesta
+```
+    wget -O - https://get.ispconfig.org | sh -s -- --use-nginx --use-mariadb --use-ftp-ports=40110-40210 --unattended-upgrades
+```
 nejdrive se musi zmenit hostname na nejakou domenu napriklad 
 ```
 sudo hostnamectl set-hostname server.tvojedomena.xyz
