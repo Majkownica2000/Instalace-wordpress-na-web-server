@@ -67,7 +67,7 @@ Aby se všechny změny projevily okamžitě.
 ## stahnuti isp configu
 nejdrive se musi zmenit hostname na nejakou domenu napriklad 
 ```
-sudo hostnamectl set-hostname ct102.mojedomena.cz
+sudo hostnamectl set-hostname server.tvojedomena.xyz
 ```
 instalace ppotrebnych zdroju pro isp config
 ```
