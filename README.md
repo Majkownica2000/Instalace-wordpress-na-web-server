@@ -1,1 +1,1 @@
-#tento návod není kompletní
+# Tento návod není kompletní
