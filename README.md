@@ -1,0 +1,1 @@
+#tento návod není kompletní
